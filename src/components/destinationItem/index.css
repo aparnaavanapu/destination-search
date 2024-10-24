@@ -1,0 +1,21 @@
+.destination-item{
+  list-style-type: none;
+  width:50%;
+}
+.image{
+    width:80%;
+}
+.place{
+    color:#0f172a;
+    font-family:"Open Sans";
+}
+
+@media screen and (max-width:576px){
+    .destination-item{
+        width:100%;
+
+    }
+    .image{
+        width:90%;
+    }
+}
